@@ -1,0 +1,13 @@
+function repeatedString(s, n) {
+    let count = 0;
+    let repeated = '';
+for(let i = 0; i < n; i++) {
+        repeated.concat(s)
+}
+for (let char of s) {
+    if (char === 'a'){
+        count++
+    }
+}
+return count;
+}
